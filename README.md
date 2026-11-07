@@ -6,7 +6,7 @@ Selamat datang di repositori dokumentasi kegiatan, rangkuman materi, dan catatan
 
 ## 👤 1. Nama Lengkap Peserta
 - **Nama Lengkap:** Frasya Pandu Asmara
-- **Kelompok:** 08_Persona
+- **Kelompok:** Persona
 - **Program Studi / Kelas:** Teknik Multimedia dan Jaringan (TMJ 1B)
 - **GitHub Profile:** [@PanduAsmara](https://github.com/PanduAsmara)
 - **Website Portofolio:** [frasyapanduasmara.my.id](https://frasyapanduasmara.my.id)
