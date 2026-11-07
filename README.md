@@ -125,9 +125,12 @@ Hal yang paling berkesan bagi saya adalah bagaimana pemateri menunjukkan bahwa A
 Seluruh dokumentasi, materi, dan catatan kegiatan pada repository ini disusun secara terstruktur sebagai berikut:
 
 ```text
-📦 Day-1-(Nama_Kelompok)_Frasya-Pandu-Asmara
- ┣ 📂 assets/
- ┃ ┗ 📜 README.md                          # Tempat penyimpanan dokumentasi visual / screenshot
+📦 Day-1-Persona_FrasyaPanduAsmara
+ ┣ 📂 .github/workflows
+ ┃ ┗ 📜 static.yml                         # Static Page Live ke folder praktik/
+ ┣ 📂 assets dokumentasi/
+ ┃ ┗ 📷 Foto1.jpeg                         # Tempat penyimpanan dokumentasi visual / screenshot
+ ┃ ┗ 📷 Foto2.jpeg
  ┣ 📂 catatan/
  ┃ ┗ 📜 rangkuman-materi-lengkap.md        # Catatan pembelajaran & cheat sheet perintah Git
  ┣ 📂 materi/
