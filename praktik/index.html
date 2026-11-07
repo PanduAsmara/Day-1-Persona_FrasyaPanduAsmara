@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Task Planner — Workshop EXPECTIK 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-wrapper">
+    <header class="app-header">
+      <div class="badge">Workshop EXPECTIK 2026</div>
+      <h1>🎓 Student Task Planner</h1>
+      <p>Kelola daftar tugas kuliah dan pantau tenggat waktu dengan rapi</p>
+    </header>
+
+    <section class="summary-bar" aria-label="Ringkasan Tugas">
+      <div class="summary-card">
+        <span class="summary-label">Total Tugas</span>
+        <strong id="count-all">0</strong>
+      </div>
+      <div class="summary-card">
+        <span class="summary-label">Belum Selesai</span>
+        <strong id="count-pending">0</strong>
+      </div>
+      <div class="summary-card">
+        <span class="summary-label">Selesai</span>
+        <strong id="count-completed">0</strong>
+      </div>
+    </section>
+
+    <form id="task-form" class="task-form">
+      <div class="input-group">
+        <label for="task-title">Judul Tugas</label>
+        <input type="text" id="task-title" placeholder="Contoh: Laporan Praktikum Algoritma C++" required>
+      </div>
+      <div class="input-group date-group">
+        <label for="task-date">Tenggat Waktu</label>
+        <input type="date" id="task-date" required>
+      </div>
+      <button type="submit" class="btn-add">+ Tambah Tugas</button>
+    </form>
+
+    <div class="controls">
+      <div class="filters" role="tablist" aria-label="Filter Tugas">
+        <button type="button" class="filter-btn active" data-filter="all">Semua (All)</button>
+        <button type="button" class="filter-btn" data-filter="pending">Belum Selesai (Pending)</button>
+        <button type="button" class="filter-btn" data-filter="completed">Selesai (Completed)</button>
+      </div>
+    </div>
+
+    <ul id="task-list" class="task-list" aria-live="polite"></ul>
+
+    <footer class="app-footer">
+      <p>Dibuat oleh <strong>Frasya Pandu Asmara (TMJ 1B)</strong> — <em>Building with AI, Managing Change with GitHub</em></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
